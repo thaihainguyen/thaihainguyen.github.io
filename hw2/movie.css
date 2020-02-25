@@ -1,0 +1,87 @@
+body{
+	background-image: url('images/background.png');
+	font-family: Verdana, Tahoma, Sans-serif;
+	font-size: 8pt;
+}
+
+.banner_bkg{
+	background-image: url('images/bannerbg.png');
+	height: 50px;
+}
+
+.image_center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 50px;
+}
+
+h1{
+	font-family: Tahoma, Verdana, Sans-serif;
+	font-size: 24pt;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 3pt 3pt #999999;
+}
+
+.overall_content_area{
+	border: 4px gray solid;
+	border-radius: 20px;
+	width: 800px;
+	margin: auto;
+	column-count: 2;
+}
+
+.movie_info{
+	float: right;
+	display: block;
+	margin: auto;
+	width: 250px;
+}	
+
+.overall_area{
+	display: block;
+	width: 550px;
+}
+
+.rating_bkg{
+	background-image: url('images/rbg.png');
+	height: 83px;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+
+.review_columns{
+	column-count: 2; 
+	column-width: 47%;
+	column-gap: 2%; 
+}
+
+.review_box{
+	border: 2px gray solid; /* without solid, it doesn't have border, why?*/
+	border-radius: 10px;
+	background-color: #E8DC9B;
+	padding: 8px;
+}
+
+.img_wraptext{
+	float: left;
+	width: 20px;/* without this width, the float didn't work as our expectation*/
+	padding: 5px;
+	/*vertical-align: text-top;*/
+}
+
+.reviewer_icon{
+	float: left;
+	width: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+}
+
+.publication {
+	font-style: italic;
+}
