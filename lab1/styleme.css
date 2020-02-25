@@ -1,0 +1,43 @@
+h1{
+	color: green;
+	font-size: 28pt;
+	font-family: Tahoma;
+	text-align: center;
+}
+
+h2{
+	color: green;
+	font-size: 22pt;
+	font-family: Georgia;
+	text-align: left;
+}
+
+h3{
+
+}
+
+body{
+	background-color: pink;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+/*img{
+	width: 180px;
+	height: 120px;
+}*/
+
+p::first-letter{
+	color: red;
+	font-size: 150%;
+}
+
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
