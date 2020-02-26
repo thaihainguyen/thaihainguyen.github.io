@@ -46,7 +46,7 @@ ul {
   list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
 }
 
-.copyright{
-	display: inline;
+pre{
+	display: inline-block;
 	text-align: right;
 }
