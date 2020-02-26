@@ -54,8 +54,8 @@ h1{
 }
 
 .review_columns{
-	column-count: 2; 
 	column-width: 47%;
+	column-count: 2; 
 	column-gap: 2%; 
 }
 
