@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>    
+	<title>Retrieve Grade</title>
+	<meta charset="utf-8" />
+	<link href="lab2.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Retrieve your grade</h1>
+	<form action="grade" method="get" autocomplete="on">
+		<p>Name: <input type="text" name="std_name" /></p>    
+		<p>Student ID: <input type="text" name="std_id" /></p>
+		<p>Assignment: 
+			<select name="assigment">
+				<optgroup label="Labs">
+				<option>Lab 01</option>
+				<option>Lab 02</option>
+				<option>Lab 03</option>
+				<option>Lab 04</option>
+				<option selected>Lab 05</option>
+				</optgroup>
+				<optgroup label="Homeworks">
+				<option>HW1</option>
+				<option>HW2</option>
+				<option>HW3</option>
+				</optgroup>
+			</select>
+		</p>
+		<p>
+		<fieldset>
+			<legend>Student Entry: </legend>
+			<input type="radio" name="entry" value="Feb" checked />February
+			<input type="radio" name="entry" value="May" />May
+			<input type="radio" name="entry" value="Aug" />August
+			<input type="radio" name="entry" value="Nov" />November
+		</fieldset>
+		</p>
+		<p>Confirm: 
+			<input type="checkbox" name="YN" value="Yes" /> YES
+			<input type="checkbox" name="YN" value="No" checked /> NO
+		</p>
+		
+		<p><input type="submit" value="Get Grade!" /></p>
+	</form>
+</body>  
+</html>
