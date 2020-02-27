@@ -1,0 +1,14 @@
+body{
+
+}
+
+.tbl{
+	background-color: orange;
+	border: 1px solid;
+	border-radius: 5px;
+	border-width: auto;
+}
+
+.signup{
+	background-color: pink;
+}
