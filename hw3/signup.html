@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">   
+<head>    
+	<title>Sign Up</title>
+	<meta charset="utf-8" />
+	<link href="signup.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<img src="https://webster.cs.washington.edu/images/nerdluv/nerdluv.png" alt="banner logo" />
+<form action="register.html" method="post">
+<div>New User Signup:</div>
+<div class="tbl1">
+<table>
+	<tr>
+		<td>Name: </td>
+		<td><input type="text" name="fullname" pattern="[A-Za-z]{16}" title="16-character name"/></td>
+	</tr>
+	<tr>
+		<td>Gender: </td>
+		<td><label><input type="radio" name="gender" value="male" />Male</label> <label><input type="radio" name="gender" value="female" checked />Female</td></label>
+	</tr>
+	<tr>
+		<td>Age:</td>
+		<td><input type="text" name="age" size="6" maxlength="2" pattern="[A-Za-z]{2}" title="A 6-letter-wide age with up to 2 characters"/></td>
+	</tr>
+	<tr>
+		<td><a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp" new_window >Personality type:</a></td>
+		<td><input type="text" name="perosnaltype" size="6" maxlength="4" pattern="[A-Za-z]{4}" title="A 6-letter-wide age with up to 4 characters" /><font color="red">(Don't know your type?)</font></td>
+	</tr>
+	<tr>
+		<td>Favourite OS:</td>
+		<td>
+			<select name="os">
+				<option selected>Windows</option>
+				<option>Mac OS X</option>
+				<option>Linux</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>Seeking age:</td>
+		<td><input type="text" name="agemin" size="6" maxlength="2" placeholder="min" pattern="" title="Two 6-character-wide age with up to 2 characters" /> to <input type="text" name="agemax" size="6" maxlength="2"  placeholder="max" pattern="" title="Two 6-character-wide age with up to 2 characters"/></td>
+	</tr>
+	<tr>
+		<td><input type="submit" value="Sign Up" span="signup"/></td>
+		<td></td>
+	</tr>
+</table>
+</div>
+</form>
+</body>
+</html>
