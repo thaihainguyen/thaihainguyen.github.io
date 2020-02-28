@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Retrieve your grade</h1>
-	<form action="grade" method="get" autocomplete="on">
+	<form action="http://mumstudents.org/params.php" method="get" autocomplete="on">
 		<p>Name: <input type="text" name="std_name" /></p>    
 		<p>Student ID: <input type="text" name="std_id" /></p>
 		<p>Assignment: 
@@ -27,7 +27,7 @@
 			</select>
 		</p>
 		<p>
-		<fieldset>
+		<fieldset class="radio_group">
 			<legend>Student Entry: </legend>
 			<input type="radio" name="entry" value="Feb" checked />February
 			<input type="radio" name="entry" value="May" />May
