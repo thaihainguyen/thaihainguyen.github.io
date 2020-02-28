@@ -2,11 +2,32 @@ body{
 
 }
 
+.textbox{
+	box-shadow: 1px 1px;
+	box-sizing: content-box;
+	width: fit-content;
+	height: 20px;
+	background-color: white;
+	border: 1px solid;
+	
+	position: relative;
+	bottom: -10px;
+	left: 10px;
+}
+
 .tbl{
 	background-color: orange;
 	border: 1px solid;
 	border-radius: 5px;
-	border-width: auto;
+	box-shadow: 1px 1px;
+	box-sizing: content-box;
+	width: fit-content;
+	height: fit-content;
+	padding: 20px
+}
+
+span{
+	color: red;
 }
 
 .signup{
