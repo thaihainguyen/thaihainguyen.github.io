@@ -51,6 +51,15 @@ h1{
 	font-size: 48pt;
 	font-weight: bold;
 	color: red;
+	position: relative;
+}
+
+.rating_bkg span {
+    color: red;
+    font-weight: bold;
+    font-size: 48pt;
+    position: absolute;
+    top: 5px;
 }
 
 .review_columns{
