@@ -6,10 +6,10 @@
 	<link href="signup.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-<img src="https://webster.cs.washington.edu/images/nerdluv/nerdluv.png" alt="banner logo" />
-<form action="register.html" method="post">
-<div>New User Signup:</div>
-<div class="tbl1">
+<img src="nerdluv.PNG" alt="banner logo" />
+<form action="http://mumstudents.org/params.php" method="post">
+<div class="textbox">New User Signup:</div>
+<div class="tbl">
 <table>
 	<tr>
 		<td>Name: </td>
@@ -17,15 +17,15 @@
 	</tr>
 	<tr>
 		<td>Gender: </td>
-		<td><label><input type="radio" name="gender" value="male" />Male</label> <label><input type="radio" name="gender" value="female" checked />Female</td></label>
+		<td><label><input type="radio" name="gender" value="male" />Male</label> <label><input type="radio" name="gender" value="female" checked />Female</label></td>
 	</tr>
 	<tr>
 		<td>Age:</td>
 		<td><input type="text" name="age" size="6" maxlength="2" pattern="[A-Za-z]{2}" title="A 6-letter-wide age with up to 2 characters"/></td>
 	</tr>
 	<tr>
-		<td><a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp" new_window >Personality type:</a></td>
-		<td><input type="text" name="perosnaltype" size="6" maxlength="4" pattern="[A-Za-z]{4}" title="A 6-letter-wide age with up to 4 characters" /><font color="red">(Don't know your type?)</font></td>
+		<td><a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp" target="_blank">Personality type:</a></td>
+		<td><input type="text" name="perosnaltype" size="6" maxlength="4" pattern="[A-Za-z]{4}" title="A 6-letter-wide age with up to 4 characters" /><span>(Don't know your type?)</span></td>
 	</tr>
 	<tr>
 		<td>Favourite OS:</td>
@@ -41,12 +41,25 @@
 		<td>Seeking age:</td>
 		<td><input type="text" name="agemin" size="6" maxlength="2" placeholder="min" pattern="" title="Two 6-character-wide age with up to 2 characters" /> to <input type="text" name="agemax" size="6" maxlength="2"  placeholder="max" pattern="" title="Two 6-character-wide age with up to 2 characters"/></td>
 	</tr>
+
 	<tr>
-		<td><input type="submit" value="Sign Up" span="signup"/></td>
+		<td><input type="submit" value="Sign Up" class="signup"/></td>
 		<td></td>
 	</tr>
 </table>
 </div>
 </form>
+<footer>
+<pre>
+This page is for single nerds to meet and date  each other! Type in 
+your personal information and wait for the nerdly luv to begin!
+Thank you for using our site.
+Results and page (C) Copyright NerdLuv Inc.
+</pre>
+<div class="w3c">
+	<a href="http://validator.w3.org/check?uri=https://thaihainguyen.github.io/hw3/signup.html"><img src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png" alt="Valid HTML5" /></a>
+	<a href="http://jigsaw.w3.org/css-validator/validator?uri=https://thaihainguyen.github.io/hw3/signup.html"><img src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png" alt="Valid CSS" /></a>
+</div>
+</footer>
 </body>
 </html>
