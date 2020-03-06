@@ -1,0 +1,45 @@
+body{
+	background-color: #CCCCFF;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 32pt;
+	padding: 0px;
+}
+
+textarea{
+	width: 90%;
+	height: 400px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+	
+	font-family: monospace;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+fieldset{
+	display: inline-flex;/*inline-grid;*/
+	border-color: black;
+	border-width: 5px;
+}
+
+.w3c{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	opacity:0.5;
+}
