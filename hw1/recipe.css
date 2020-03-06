@@ -50,3 +50,7 @@ pre{
 	display: inline-block;
 	text-align: right;
 }
+
+b i p{
+	color: red;
+}
