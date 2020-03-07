@@ -11,7 +11,7 @@ function calcTip() {
 	var totalElem = document.getElementById('total');
 	var subtotal = document.getElementById('subtotal').value;
 	var tip = document.getElementById('tip').value;
-	var total = (subtotal * tip)/100;
+	var total = ((parseInt(subtotal) * parseInt(tip))/100) + parseInt(subtotal);
 	totalElem.innerHTML = '$' + total;
 }
 
