@@ -33,7 +33,7 @@ function delayIncFontSizeByTimeout(){
 var timer = null;
 function delayIncFontSize(){
 	if(timer == null){
-		timer = setInterval(deco(), 500);
+		timer = setInterval(deco, 500);
 	}
 	else{
 		clearInterval(timer);
